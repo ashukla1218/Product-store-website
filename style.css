@@ -1,0 +1,71 @@
+main{
+    padding: 150px;
+    background-color: beige;
+    min-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+main>div{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 16px;
+    width: 300px;
+    background-color: white;
+    margin: 12px auto;
+    box-shadow: 0 2px 5px grey;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+nav{
+    margin: top;
+    background-color: black;
+    width: 100%;
+    border: 2px solid black;
+    position: fixed;
+    padding: 20px;
+}
+nav>input{
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+nav>div{
+    color: white;
+    display: inline;
+    font-size: xx-large;
+    float: inline-start;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+}
+
+.navbox{
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
